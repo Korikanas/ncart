@@ -7,7 +7,7 @@ const INR = new Intl.NumberFormat("en-IN", {
   maximumFractionDigits: 0 
 });
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://ncart-backend-1.onrender.com/api";
 
 export default function Admin({ token, onLogout }) {
   const [activeTab, setActiveTab] = useState("dashboard");
@@ -689,4 +689,5 @@ const getStatusClass = (status) => {
     default:
       return 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200';
   }
+
 };
