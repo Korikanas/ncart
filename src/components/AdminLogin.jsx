@@ -1,7 +1,7 @@
 // components/AdminLogin.jsx (updated with close functionality)
 import React, { useState } from "react";
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://ncart-backend-1.onrender.com/api";
 
 export default function AdminLogin({ onAdminLogin, setCurrentPage, onClose }) {
   const [email, setEmail] = useState("");
@@ -111,4 +111,5 @@ export default function AdminLogin({ onAdminLogin, setCurrentPage, onClose }) {
       </div>
     </div>
   );
+
 }
