@@ -13,7 +13,7 @@ export default function Blog() {
     const fetchBlogPosts = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://localhost:5000/api/blog');
+        const response = await fetch('https://ncart-backend-1.onrender.com/api/blog');
         if (!response.ok) {
           throw new Error('Failed to fetch blog posts');
         }
@@ -174,4 +174,5 @@ export default function Blog() {
       )}
     </div>
   );
+
 }
