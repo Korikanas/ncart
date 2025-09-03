@@ -6,5 +6,13 @@ export default defineConfig({
   plugins: [react()],
   css: {
     postcss: './postcss.config.js',
+  },
+  // Add this for proper routing
+  build: {
+    outDir: 'dist',
+  },
+  // Add this to handle client-side routing
+  server: {
+    historyApiFallback: true,
   }
 })
