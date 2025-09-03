@@ -1,0 +1,11 @@
+# render.yaml
+services:
+  - type: web
+    name: ncart-frontend
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_BASE
+        value: https://ncart-backend-1.onrender.com/api
