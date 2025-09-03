@@ -43,7 +43,7 @@ const Login = ({ onLogin, setCurrentPage }) => {
 
     try {
       const endpoint = isLogin ? '/login' : '/register';
-      const response = await fetch(`http://localhost:5000/api${endpoint}`, {
+      const response = await fetch(`https://ncart-backend-1.onrender.com/api${endpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -274,5 +274,6 @@ const Login = ({ onLogin, setCurrentPage }) => {
     </div>
   );
 };
+
 
 export default Login;
