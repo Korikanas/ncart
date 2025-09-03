@@ -94,7 +94,7 @@ const Account = ({ user, setUser, orders, onGenerateInvoice, onUpdateStatus, onL
   const handleSaveProfile = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/user', {
+      const response = await fetch('https://ncart-backend-1.onrender.com/api/user', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -129,7 +129,7 @@ const Account = ({ user, setUser, orders, onGenerateInvoice, onUpdateStatus, onL
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/user/password', {
+      const response = await fetch('https://ncart-backend-1.onrender.com/api/user/password', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -712,5 +712,6 @@ const getStatusClass = (status) => {
       return 'bg-gray-100 text-gray-800 dark:bg-gray-900/30 dark:text-gray-400';
   }
 };
+
 
 export default Account;
