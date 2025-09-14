@@ -1,4 +1,4 @@
-# Neart Frontend
+# Ncart Frontend
 
 Modern e-commerce frontend for the Neart technology store, built with ReactJS and Tailwind CSS.
 
@@ -26,9 +26,6 @@ Modern e-commerce frontend for the Neart technology store, built with ReactJS an
 - Node.js (v14 or higher)
 - npm or yarn
 
-### Installation
+## Live Demo
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/neart-frontend.git
-cd neart-frontend
+The application is deployed on Render: https://ncart.onrender.com/
