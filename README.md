@@ -1,4 +1,4 @@
-# Ncart Frontend
+# Ncart – E-commerce Website
 
 Ncart is a modern full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js, ReactJS, Node.js) and styled using Tailwind CSS for a responsive, minimal, and user-friendly design. The application supports seamless product browsing, cart management, secure checkout, order tracking, and includes an intuitive admin panel for managing products, users, and orders.
 
